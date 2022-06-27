@@ -10,7 +10,7 @@ class Person():
         self.mobile = mobile
 
     def show_person(self):
-        print("\nStudent details:")
+        print("\nUser details:")
         print(f"\tFirstname: {self.firstname}")
         print(f"\tLastname: {self.lastname}")
         print(f"\tEmail: {self.email}")
@@ -119,7 +119,7 @@ def add_student():
     generator = random.randint(000000, 9999999)
     student_id = firstname[0].upper() + lastname[0].upper() + str(generator)
 
-    print("Adding student")
+    print("Student added successfully")
     new_student = Student(firstname, lastname, email, mobile, student_id, course)
     student()
 
@@ -170,7 +170,7 @@ def add_teacher():
     generator = random.randint(000000, 9999999)
     teacher_id = firstname[0].upper() + lastname[0].upper() + str(generator)
 
-    print("Adding teacher")
+    print("Teacher added successfully")
     new_teacher = Teacher(firstname, lastname, email, mobile, teacher_id, department)
     teacher()
 
