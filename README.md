@@ -1,2 +1,2 @@
-# university-oop-database
+# university-OOP-database
 This is my first project using OOP (:
