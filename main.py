@@ -74,7 +74,7 @@ def menu():
 
 
 def student():
-    print("\n---------- Teachers Database --------------------\n")
+    print("\n---------- Students Database --------------------\n")
     """This function is a navigation for students, user will be able taken to 3 different functions, add, view and return"""
     while True:
         try:
@@ -96,6 +96,7 @@ def student():
                 print("Returning to main menu")
                 print("\n---------- Main Menu ----------------------------\n")
                 menu()
+                break
 
         except ValueError:
             print("Incorrect option, try again\n")
@@ -146,6 +147,7 @@ def teacher():
                 print("returning to main menu")
                 print("\n---------- Main Menu ----------------------------\n")
                 menu()
+                break
 
         except ValueError:
             print("Incorrect option, try again\n")
